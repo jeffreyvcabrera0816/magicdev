@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tidalsolutions.magic89_9"
+    android:versionCode="2"
+    android:versionName="1.1.0" >
+
+
+    <uses-sdk tools:overrideLibrary="com.handmark.pulltorefresh.library"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/magic_logo"
+        android:label="Magic 89.9"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id" tools:replace="android:value"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.RegisterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.StarterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tidalsolutions.magic89_9.ForumDetails"
+            android:label="Forum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.ActivePollVote"
+            android:label="Poll"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.ArtistsList"
+            android:label="Shows"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.DJsList"
+            android:label="DJs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.DJsListTakeOver"
+            android:label="Takeover DJs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.SongsList"
+            android:label="Magic Pop 30"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.ArtistDetails"
+            android:label="Shows Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.DJDetails"
+            android:label="DJ Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.bio.SongDetails"
+            android:label="Song Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.HelpActivity"
+            android:label="FAQs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.ChangePassword"
+            android:label="Change Password"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.tidalsolutions.magic89_9.readables.TermsAndConditions" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.ActivePollsGrid"
+            android:label="Active Polls"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.ForgotPassword"
+            android:label="Reset Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.PasswordChange"
+            android:label="Change Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.polls.ClosedPolls"
+            android:label="Closed Polls"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tidalsolutions.magic89_9.polls.ClosedPollsItems"
+            android:label="Closed Poll"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.tidalsolutions.magic89_9.EditProfile"
+            android:label="Edit Profile"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

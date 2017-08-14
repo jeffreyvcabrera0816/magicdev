@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "247526564448",
+    "project_id": "firebase-magic89"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247526564448:android:1f238acab8c1a3d9",
+        "android_client_info": {
+          "package_name": "com.tidalsolutions.magic89_9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247526564448-m0r37dcuj0dn0uh27uc7685ss1balhe5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tidalsolutions.magic89_9",
+            "certificate_hash": "47352BCA1027119C95230B91BCD438CB03747304"
+          }
+        },
+        {
+          "client_id": "247526564448-fq3hb7k7pbh5joolcn3c9ds8m05b73bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tidalsolutions.magic89_9",
+            "certificate_hash": "473579347D8EBA93F647D4F7321161896D3B6E22"
+          }
+        },
+        {
+          "client_id": "247526564448-9bav2gtci37hli2ojcok120flbsi7pos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLqzBX5hWS_a6iqyPxRLiSOIVYE_T_wM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

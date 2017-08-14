@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:id="@+id/swipeRefresh"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <ListView
+            android:id="@+id/forum_detail_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp"></ListView>
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment_box_round"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <EditText
+                    android:id="@+id/comment_et"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/comment_box_round"
+                    android:gravity="center_vertical"
+                    android:hint="Write a comment..."
+                    android:textColor="@color/black_light"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/comment_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="0"
+                    android:background="@color/yellow"
+                    android:padding="0dp"
+                    android:text="&gt;" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/bg2"
+    android:minHeight="300dp"
+    android:id="@+id/root_layout"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/logo_magic_horizontal" />
+
+        <TextView
+            android:id="@+id/title_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Welcome to Magic 89.9"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:paddingBottom="12dp"
+            android:paddingLeft="12dp"
+            android:id="@+id/etEmail"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:drawablePadding="12dp"
+            android:hint="Email"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textSize="16sp"
+            android:theme="@style/EditText" >
+
+            <!--<requestFocus />-->
+        </EditText>
+
+        <EditText
+            android:paddingBottom="12dp"
+            android:paddingLeft="12dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:drawablePadding="12dp"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textSize="16sp"
+            android:theme="@style/EditText" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/forgot_password"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_corner_button"
+            android:hint="@string/login"
+            android:textColorHint="@color/black"
+            android:textSize="17sp" />
+
+        <com.facebook.login.widget.LoginButton
+            xmlns:facebook="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fb_login_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:layout_marginBottom="20dp"
+            facebook:com_facebook_login_text=""
+            android:text=""/>
+
+        <Button
+            android:id="@+id/g_sign_in_button"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/btn_login_with_google"/>
+
+        <TextView
+            android:id="@+id/btnRegister"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/register"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>

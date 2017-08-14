@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Magic 89.9</string>
+    <string name="app_name2"></string>
+    <string name="facebook_app_id">991641337575760</string>
+    <!--<string name="facebook_app_id">105260079926209</string>-->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="register"><u>Sign-Up as a New User</u>.</string>
+    <string name="forgot_password"><u>Forgot my password</u></string>
+    <string name="register_text_header">Magic 89.9 New User Sign Up</string>
+    <string name="terms_and_conditions">Welcome to the Magic 89.9 app owned by Magic 89.9 ("Company," "We," or "Us"). The following terms
+
+and conditions, together with any documents they expressly incorporate by reference, (collectively,
+
+these "Terms of Use"), govern your access to and use of this Application (defined below), whether as a
+
+guest or a registered user.
+
+\n\nPlease read the Terms of Use carefully before you start to use the Application. By using the Application
+
+or by registering as a user, you accept and agree to be bound and abide by these Terms of Use and our
+
+Privacy Policy, found at the link set forth at the end of these Terms of Use, incorporated herein by
+
+reference. If you do not want to agree to these Terms of Use or the Privacy Policy, you must not access
+
+or use the Application.
+
+\n\nThe Application is offered and available to users who are 18 years of age or older. By using the
+
+Application, you represent and warrant that you are of legal age to form a binding contract with the
+
+Company and meet all of the foregoing eligibility requirements. If you do not meet all of these
+
+requirements, you must not access or use the Application.
+
+We may revise and update these Terms of Use from time to time in our sole discretion. All changes are
+
+effective immediately when we post them, and apply to all access to and use of the Application
+
+thereafter. However, any changes to the dispute resolution provisions set forth in Governing Law and
+
+Jurisdiction will not apply to any disputes for which the parties have actual notice on or prior to the date
+
+the change is posted on the Application.
+
+\n\nYour continued use of the Application following the posting of revised Terms of Use means that you
+
+accept and agree to the changes. You are expected to check this page each time you access the
+
+Application so you are aware of any changes, as they are binding on you.
+
+The Application and its contents, features, and functionality (including but not limited to all information,
+
+software, text, displays, images, video and audio, and the design, selection and arrangement thereof),
+
+are owned by the Company, its licensors or other providers of such material and are protected by the
+
+Philippines and international copyright, trademark, patent, trade secret and other intellectual property
+
+("IP") or proprietary rights laws.
+
+\n\nYou must not reproduce, distribute, modify, create derivative works of, publicly display, publicly
+
+perform, republish, download, store or transmit any of our IP, except as follows:
+
+Your computer may temporarily store copies of such materials in RAM incidental to your accessing and
+
+viewing those materials.</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis posuere ligula. Nullam semper venenatis leo, id dictum ante ultricies eget. Sed nec libero sed nulla tincidunt lobortis eget egestas sem. Phasellus non libero non sem placerat vehicula. In est metus, consectetur accumsan tincidunt a, luctus venenatis mauris. Maecenas non fringilla erat, mollis luctus est. Proin venenatis consequat luctus. Duis nec vestibulum dui. Aenean at erat luctus, pretium tellus nec, tempor nunc. Pellentesque convallis eget eros in eleifend. Fusce nunc metus, auctor vitae tincidunt vel, faucibus viverra est.</string>
+    <string-array name="region_array">
+        <item>Region 1</item>
+        <item>Region 2</item>
+        <item>Region 3</item>
+        <item>Region 4</item>
+        <item>Region 5</item>
+        <item>Region 6</item>
+        <item>Region 7</item>
+        <item>Region 8</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>city 1</item>
+        <item>city 2</item>
+        <item>city 3</item>
+        <item>city 4</item>
+        <item>city 5</item>
+        <item>city 6</item>
+        <item>city 7</item>
+        <item>city 8</item>
+    </string-array>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="login">LOG IN</string>
+    <string name="faqs">
+
+\nHow can I listen to the radio?
+
+\nOn the Radio screen, click on the play button, which is right below the Magic 89.9 logo.
+
+\n\nCan I continue listening to the radio even if I am using another app?
+
+\nYes, as long as you keep Magic 89.9 app running in the background, and you are connected to the Internet. You can continue streaming the radio.
+
+\n\nHow do I stay logged in, even when I exit the app?
+
+\nIn the registration page, enter your email address, your password. Click on the tickbox for "Keep me logged in". Then click on "Log in". The next time you use the Magic 89.9 app, you will no longer have to
+
+input your details.
+
+\n\nWhat happens when I forget my password?
+
+\nIn the registration page, click on the "Forgot my password" link. enter your email address. And click on
+
+the "Reset Password" button. An email will be sent to your email address with the new password. Log
+
+into Magic 89.9 app with the new password.
+
+\n\nHow do I change my password?
+
+\nIn the side menu, click on "Change Password". Enter your old password, enter your new password, and
+
+enter your new password again to confirm. You will now need to log into the Magic 89.9 app using your
+
+new password.
+
+\n\nHow do I log out?
+
+\nIn the side menu, click on "Logout". You will now be logged out of the Magic 89.9 app, and will need to
+
+log-in again with your email address and password when you open the app again.
+
+\n\nHow do I edit my profile?
+
+\nIn the side menu, click on "Edit Profile", you can update your name, your mobile number, and your
+
+birthday.
+
+\n\nHow do I comment on a post?
+
+\nGo to the Forums screen, click on the DJs post you would like to comment on, click on "Write a comment" and input your comment, and click on the > button.
+
+\n\nHow do I like a post?
+
+\nClick on the thumbs up icon on any post you want to like
+
+\n\nHow do I share a post?
+
+\nClick on the share icon on any post you want to share
+
+\n\nHow do I vote in a poll?
+
+\nGo to the Polls screen, click on a poll, click on the item you want to vote for. A checkmark will appear.
+
+\n\nHow do I change my vote once I’ve already voted?
+
+\nYou cannot change your vote as you may only vote once per poll.</string>
+</resources>

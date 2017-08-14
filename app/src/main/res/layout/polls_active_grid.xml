@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_poll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="3dp"
+        android:id="@+id/layout_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC212121"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/top_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title lorem ipsum dolor sit amet"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/top_polls_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icn512_poll_box_white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="0"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="votes"
+                    android:id="@+id/top_list_votes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="0"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/vote_check"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votes Casted"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+</LinearLayout>
